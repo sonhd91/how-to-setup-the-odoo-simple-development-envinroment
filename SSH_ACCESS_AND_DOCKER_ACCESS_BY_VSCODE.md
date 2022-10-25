@@ -32,7 +32,7 @@
 
 ![](static/img/guide_ssh_docker_vscode/guide_ssh_docker_vscode_04.png)
 
-- The only thing you can do is configuring to run/ debug based on [this guide](https://github.com/tuantrantg/how-to-setup-the-odoo-simple-development-envinroment/blob/master/DEBUG_ODOO_BY_VSCODE.md)
+- The only thing you can do is configuring to run/ debug based on [this guide](https://github.com/sonhd91/how-to-setup-the-odoo-simple-development-envinroment/blob/master/DEBUG_ODOO_BY_VSCODE.md)
 
 ![](static/img/guide_ssh_docker_vscode/guide_ssh_docker_vscode_05.png)
 
