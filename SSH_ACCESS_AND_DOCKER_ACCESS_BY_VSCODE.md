@@ -44,7 +44,7 @@
         `C:\Windows\system32\wsl.exe ssh %*`
     3. Then, in VSCode settings(installed on Windows ofcourse), set remote.ssh.path to:
         `C:\Users\<username>\bin\ssh.bat`
-    4. Done, now you'll have the same SSH configuration and credentials in VSCode as WSL
+    4. Done, now you'll have the same SSH configuration and credentials in VSCode as WSL, credit goes to [Zit Seng](https://zitseng.com/archives/20325)
 
 ![](static/img/guide_ssh_docker_vscode/guide_ssh_docker_vscode_06.png)
 
