@@ -4,7 +4,7 @@
 - Before you read the following sections, you need a Ubuntu machine (real or virtual machine, it's up to you)
   - You can use any OS to do. But in this guide, I use the Ubuntu
 - To use the Sublime Text to run or debug the Odoo, you need to know some things:
-  - Odoo needs a environment to run -> We will use the virtual environment in [this guide](https://github.com/tuantrantg/how-to-setup-the-odoo-simple-development-envinroment/blob/master/README.md) to run Odoo by the VSCode
+  - Odoo needs a environment to run -> We will use the virtual environment in [this guide](https://github.com/sonhd91/how-to-setup-the-odoo-simple-development-envinroment/blob/master/README.md) to run Odoo by the VSCode
   - Odoo also needs a PostgreSQL server, please "google" to setup a PostgreSQL server if you don't have it on your machine
   - Sublime Text must be installed on your machine & you must install the ***sublime_debugger*** package. Here is [the link to download this package](https://github.com/daveleroy/sublime_debugger)
 
@@ -51,42 +51,42 @@
 	],
 	"settings":
 	{
-		"python_interpreter": "/home/tuantrantg/.virtualenvs/sample_odoo_project",
+		"python_interpreter": "/home/sonhd91/.virtualenvs/sample_odoo_project",
 		"debug.configurations":
 		[
 			{
 				"args":
 				[
 					"-c",
-					"/home/tuantrantg/code/trobz_projects/sample_odoo_project/config/dev_vscode.conf"
+					"/home/sonhd91/code/trobz_projects/sample_odoo_project/config/dev_vscode.conf"
 				],
-				"cwd": "/home/tuantrantg/code/trobz_projects/sample_odoo_project/",
+				"cwd": "/home/sonhd91/code/trobz_projects/sample_odoo_project/",
 				"name": "Odoo - Start",
-				"program": "/home/tuantrantg/code/trobz_projects/sample_odoo_project/odoo/odoo-bin",
+				"program": "/home/sonhd91/code/trobz_projects/sample_odoo_project/odoo/odoo-bin",
 				"request": "launch",
 				"type": "python",
-				"pythonPath": "/home/tuantrantg/.virtualenvs/sample_odoo_project/bin/python3",
+				"pythonPath": "/home/sonhd91/.virtualenvs/sample_odoo_project/bin/python3",
 				"console": "externalTerminal"
 			},
 			{
 				"args":
 				[
 					"-c",
-					"/home/tuantrantg/code/trobz_projects/sample_odoo_project/config/dev_vscode.conf",
+					"/home/sonhd91/code/trobz_projects/sample_odoo_project/config/dev_vscode.conf",
 					"-u", "sample_module",
                 	"-d", "sample_db_01",
 				],
-				"cwd": "/home/tuantrantg/code/trobz_projects/sample_odoo_project/",
+				"cwd": "/home/sonhd91/code/trobz_projects/sample_odoo_project/",
 				"name": "Odoo - Upgrade",
-				"program": "/home/tuantrantg/code/trobz_projects/sample_odoo_project/odoo/odoo-bin",
+				"program": "/home/sonhd91/code/trobz_projects/sample_odoo_project/odoo/odoo-bin",
 				"request": "launch",
 				"type": "python",
-				"pythonPath": "/home/tuantrantg/.virtualenvs/sample_odoo_project/bin/python3",
+				"pythonPath": "/home/sonhd91/.virtualenvs/sample_odoo_project/bin/python3",
 				"console": "externalTerminal"
 			}
 		]
 	},
-	"virtualenv": "/home/tuantrantg/.virtualenvs/sample_odoo_project"
+	"virtualenv": "/home/sonhd91/.virtualenvs/sample_odoo_project"
 }
 
 ```
